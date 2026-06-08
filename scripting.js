@@ -1,10 +1,10 @@
 const pages = [
-  { text: "Home", link: "/index.html" },
-  { text: "About Me", link: "/about.html" },
-  { text: "Contact Me", link: "/contact.html" },
-  { text: "Projects", link: "/projects.html" },
-  { text: "Previous Work", link: "/work.html" },
-  { text: "API Testing", link: "/api.html" },
+  { text: "Home", link: "#/index.html" },
+  { text: "About Me", link: "#/about.html" },
+  { text: "Contact Me", link: "#/contact.html" },
+  { text: "Projects", link: "#/projects.html" },
+  { text: "Previous Work", link: "#/work.html" },
+  { text: "API Testing", link: "#/api.html" },
 ];
 
 const createNavbar = function () {
@@ -17,7 +17,7 @@ const createNavbar = function () {
   const navList = document.createElement("ul");
   navList.setAttribute("class", "nav-list");
 
-  //create each page
+  //create each link in the nav
   pages.map((item) => {
     const listItem = document.createElement("li");
     listItem.setAttribute("class", "nav-item");
@@ -31,7 +31,8 @@ const createNavbar = function () {
   navHeader.append(navList);
   return navHeader;
 };
-const mainHeader = document.querySelector(".main-header");
 
+//append the header on load
+const mainHeader = document.querySelector(".main-header");
 const createdNavbar = createNavbar();
 mainHeader.append(createdNavbar);
