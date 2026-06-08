@@ -24,7 +24,7 @@ const createNavbar = function () {
   homeClick.setAttribute("class", "nav-logo");
 
   const logo = document.createElement("img");
-  logo.src = "/assets/winterfox.png";
+  logo.src = "portfolio-site/assets/winterfox.png";
   logo.alt = "logo of the Winter Fox Summoner skin from Realm of the Mad God";
   logo.width = "64";
   logo.height = "64";
