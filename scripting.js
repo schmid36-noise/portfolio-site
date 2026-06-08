@@ -1,10 +1,10 @@
 const pages = [
-  { text: "Home", link: "#/index.html" },
-  { text: "About Me", link: "#/about.html" },
-  { text: "Contact Me", link: "#/contact.html" },
-  { text: "Projects", link: "#/projects.html" },
-  { text: "Previous Work", link: "#/work.html" },
-  { text: "API Testing", link: "#/api.html" },
+  { text: "Home", link: "/portfolio-site/index.html" },
+  { text: "About Me", link: "/portfolio-site/about.html" },
+  { text: "Contact Me", link: "/portfolio-site/contact.html" },
+  { text: "Projects", link: "/portfolio-site/projects.html" },
+  { text: "Previous Work", link: "/portfolio-site/work.html" },
+  { text: "API Testing", link: "/portfolio-site/api.html" },
 ];
 
 const createNavbar = function () {
