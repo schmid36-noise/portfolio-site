@@ -1,11 +1,12 @@
 const pages = [
-  { text: "Home", link: "/portfolio-site/index.html" },
   { text: "About Me", link: "/portfolio-site/about.html" },
   { text: "Contact Me", link: "/portfolio-site/contact.html" },
   { text: "Projects", link: "/portfolio-site/projects.html" },
   { text: "Previous Work", link: "/portfolio-site/work.html" },
   { text: "API Testing", link: "/portfolio-site/api.html" },
 ];
+
+//  { text: "Home", link: "/portfolio-site/index.html" },
 
 const createNavbar = function () {
   //code to append the header each time so no html space is copied
@@ -16,6 +17,20 @@ const createNavbar = function () {
   //holds the elements
   const navList = document.createElement("ul");
   navList.setAttribute("class", "nav-list");
+
+  //create the logo
+  const homeClick = document.createElement("a");
+  homeClick.href = "/portfolio-site/index.html";
+  homeClick.setAttribute("class", "nav-logo");
+
+  const logo = document.createElement("img");
+  logo.src = "/assets/winterfox.png";
+  logo.alt = "logo of the Winter Fox Summoner skin from Realm of the Mad God";
+  logo.width = "64";
+  logo.height = "64";
+
+  homeClick.appendChild(logo);
+  navHeader.append(homeClick);
 
   //create each link in the nav
   pages.map((item) => {

@@ -1,15 +1,30 @@
+body {
+  margin: 0;
+}
+
 main {
   padding: 0%;
   margin: 0;
 }
 
-.nav-list {
-  list-style-type: none;
+.nav-logo {
+  padding: 1rem 2rem 1rem 2rem;
 }
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin-bottom: 0;
+  align-items: center;
+  padding-right: 1rem;
+  padding-left: 0;
+}
+
 .nav-header {
   height: 100px;
   width: 100%;
-  background-color: black;
+  background-color: rgb(100, 10, 50);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -20,9 +35,8 @@ main {
   justify-content: space-between;
 }
 
-.nav-header h1 {
-  padding-left: 1rem;
-  justify-content: flex-start;
+.main-footer {
+  padding-bottom: 2rem;
 }
 
 .nav-list {
