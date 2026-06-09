@@ -92,3 +92,25 @@ main {
   display: flex;
   align-items: center;
 }
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.contact-form {
+  background-color: rgb(100, 10, 50);
+  border: solid 2px white;
+  border-radius: 1rem;
+  width: 75%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.contact-buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}

@@ -28,3 +28,7 @@ This one took a while because I was helping move my roommate move out, but I als
 ## Projects
 
 I want to get this one done while the carousel is still fresh in my mind. If I don't implement it tonight I'll lose my steam and might not get the final in on time. I don't really _have_ any previous work yet, but definitely do have some public facing repositories from another class I can put in here.
+
+After trying to grapple with the carousel for a few minutes I decided it was way too dense of an element for me to want to append to the site. I ended up pivoting to a similar way I displayed the About page instead since it was simple and clean. I just didn't think it would have been worth my time to implement, especially when it would also rely on images that the projects simply are not interesting enough to have. The smaller images and blurbs honestly works more in my favor for how I want the site to be presented.
+
+## Form

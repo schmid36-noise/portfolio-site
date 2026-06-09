@@ -1,4 +1,4 @@
-//swap the two below for testing on LiveServer vs uploading to the production page on git pages
+//swap the two variables below for testing on LiveServer vs uploading to the production page on git pages
 
 const PREFIX = "/portfolio-site";
 //const PREFIX = "";
@@ -34,6 +34,7 @@ const createNavbar = function () {
   logo.width = "64";
   logo.height = "64";
 
+  //append the logo to the navbar
   homeClick.appendChild(logo);
   navHeader.append(homeClick);
 

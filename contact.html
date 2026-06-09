@@ -16,10 +16,48 @@
   <body class="h-100 text-center text-bg-dark">
     <div class="d-flex w-100 h-100 flex-column">
       <header class="main-header mb-auto"></header>
+      <main>
+        <h1>Contact Me</h1>
+        <p>Got any questions? Contact me below:</p>
+        <div class="contact-container">
+          <div class="contact-form">
+            <form method="post" action="/submitquestion">
+              <div class="contact-thin">
+                <label for="name" class="form-label mb-2">Name:</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="username"
+                  class="form-control mb-2"
+                />
+                <label for="email" class="form-label mb-2">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control mb-2"
+                />
+                <label for="question" class="form-label"
+                  >What do you want to say?</label
+                >
+                <textarea
+                  name="textarea"
+                  id="question"
+                  class="form-control mb-2"
+                ></textarea>
+              </div>
 
-      <main class="px-3">
-        <h1 class="text-center">Contact Me</h1>
-        <p>form go here</p>
+              <div class="contact-buttons">
+                <input
+                  type="submit"
+                  value="Submit Form"
+                  class="contact-submit"
+                />
+                <input type="reset" value="Reset Form" class="contact-reset" />
+              </div>
+            </form>
+          </div>
+        </div>
       </main>
 
       <footer class="mt-auto main-footer">We're all a work in progress</footer>
