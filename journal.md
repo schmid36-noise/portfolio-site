@@ -22,3 +22,9 @@ I had an idea what I wanted the landing page to look like, and thankfully there 
 While I was working on the landing page I remembered that I might need to adjust the viewing experience for mobile. I know that I would probably lose a bit of points on the formatting but I just want a standard desktop experience out first, and then I can convert that to mobile later. I know that typically sites are built mobile first, but desktop is what I'm most likely to use. I plan to put this off until the rest of the site content is complete.
 
 ## About Me page
+
+This one took a while because I was helping move my roommate move out, but I also really like how this page turned out. Once again, I had a vision for what the page would be like and Bootstrap had a template that I could take inspiration from. The carousel page had sections with images and text on opposite sides of the main content page, and other sections I could take inspiration from later for other sections. All of what I wrote on this page are my honest thoughts and although I didn't really put an emphasis on professional work, I'll still put my work on the corresponding page. Speaking of which...
+
+## Projects
+
+I want to get this one done while the carousel is still fresh in my mind. If I don't implement it tonight I'll lose my steam and might not get the final in on time. I don't really _have_ any previous work yet, but definitely do have some public facing repositories from another class I can put in here.

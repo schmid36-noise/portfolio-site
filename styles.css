@@ -9,6 +9,7 @@ main {
 
 .nav-logo {
   padding: 1rem 2rem 1rem 2rem;
+  background-color: rgb(120, 30, 70);
 }
 
 .nav-list {
@@ -33,10 +34,13 @@ main {
 
 .main-header {
   justify-content: space-between;
+  padding-bottom: 2rem;
 }
 
 .main-footer {
-  padding-bottom: 2rem;
+  background-color: rgb(100, 10, 50);
+  padding: 2rem 0;
+  text-align: center;
 }
 
 .nav-list {
@@ -61,6 +65,11 @@ main {
   flex-direction: row-reverse;
 }
 
+.about-section {
+  display: flex;
+  align-items: center;
+}
+
 .about-figure {
   justify-content: center;
 }
@@ -69,4 +78,17 @@ main {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.project-redirect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.project-section {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
 }
