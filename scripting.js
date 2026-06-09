@@ -1,9 +1,14 @@
+//swap the two below for testing on LiveServer vs uploading to the production page on git pages
+
+const PREFIX = "/portfolio-site";
+//const PREFIX = "";
+
 const pages = [
-  { text: "About Me", link: "/portfolio-site/about.html" },
-  { text: "Contact Me", link: "/portfolio-site/contact.html" },
-  { text: "Projects", link: "/portfolio-site/projects.html" },
-  { text: "Previous Work", link: "/portfolio-site/work.html" },
-  { text: "API Testing", link: "/portfolio-site/api.html" },
+  { text: "About Me", link: `${PREFIX}/about.html ` },
+  { text: "Contact Me", link: `${PREFIX}/contact.html` },
+  { text: "Projects", link: `${PREFIX}/projects.html` },
+  { text: "Previous Work", link: `${PREFIX}/work.html` },
+  { text: "API Testing", link: `${PREFIX}/api.html` },
 ];
 
 //  { text: "Home", link: "/portfolio-site/index.html" },
@@ -20,11 +25,11 @@ const createNavbar = function () {
 
   //create the logo
   const homeClick = document.createElement("a");
-  homeClick.href = "/portfolio-site/index.html";
+  homeClick.href = `${PREFIX}/index.html`;
   homeClick.setAttribute("class", "nav-logo");
 
   const logo = document.createElement("img");
-  logo.src = "/portfolio-site/assets/winterfox.png";
+  logo.src = `${PREFIX}/assets/winterfox.png`;
   logo.alt = "logo of the Winter Fox Summoner skin from Realm of the Mad God";
   logo.width = "64";
   logo.height = "64";
@@ -49,5 +54,7 @@ const createNavbar = function () {
 
 //append the header on load
 const mainHeader = document.querySelector(".main-header");
+mainHeader.setAttribute("class", "main-header mb-auto");
+
 const createdNavbar = createNavbar();
 mainHeader.append(createdNavbar);
