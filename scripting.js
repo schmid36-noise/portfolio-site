@@ -7,7 +7,7 @@ const pages = [
   { text: "About Me", link: `${PREFIX}/about.html ` },
   { text: "Contact Me", link: `${PREFIX}/contact.html` },
   { text: "Projects", link: `${PREFIX}/projects.html` },
-  { text: "Previous Work", link: `${PREFIX}/work.html` },
+  { text: "Work Experience", link: `${PREFIX}/work.html` },
   { text: "API Testing", link: `${PREFIX}/api.html` },
 ];
 
@@ -53,9 +53,19 @@ const createNavbar = function () {
   return navHeader;
 };
 
+const createFooter = function (element) {
+  element.textContent = "We're all a work in progress";
+
+  return footer;
+};
+
 //append the header on load
 const mainHeader = document.querySelector(".main-header");
 mainHeader.setAttribute("class", "main-header mb-auto");
 
 const createdNavbar = createNavbar();
 mainHeader.append(createdNavbar);
+
+//append the footer on load
+const main = document.querySelector(".main-footer");
+const createdFooter = createFooter(main);

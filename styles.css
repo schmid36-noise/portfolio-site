@@ -40,6 +40,7 @@ main {
 .main-footer {
   background-color: rgb(100, 10, 50);
   padding: 2rem 0;
+  margin-top: 2rem;
   text-align: center;
 }
 
@@ -113,4 +114,37 @@ main {
   margin-top: 1rem;
   display: flex;
   justify-content: space-around;
+}
+
+.form-control {
+  text-align: center;
+}
+
+.work-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.work-item {
+  border: solid 2px white;
+  background-color: rgb(100, 10, 50);
+  padding: 1rem;
+  border: solid 2px white;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.work-container {
+  margin: 0 2rem;
+}
+
+.work-skills {
+  grid-row: span 2;
+}
+
+.work-list {
+  list-style-type: none;
 }

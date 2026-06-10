@@ -32,3 +32,9 @@ I want to get this one done while the carousel is still fresh in my mind. If I d
 After trying to grapple with the carousel for a few minutes I decided it was way too dense of an element for me to want to append to the site. I ended up pivoting to a similar way I displayed the About page instead since it was simple and clean. I just didn't think it would have been worth my time to implement, especially when it would also rely on images that the projects simply are not interesting enough to have. The smaller images and blurbs honestly works more in my favor for how I want the site to be presented.
 
 ## Form
+
+The form took inspiration from the many forms we already did in class, but a lot more time was spent determining how it should look. I didn't the fields to just be floating in the center like the home page had it, so I put them in a container. It was actually a bit annoying trying to get the specific fields and text labels in a layout that I felt was satisfying, since I was trying my best to minimize my usage of Bootstrap class styling. Eventually I had to readjust the container and it ended up looking acceptable, and it doesn't look out of place.
+
+## Previous Work
+
+This page won't be as dense as the Projects page because I don't have much (if any) work experience to put on this page. I've always sort of disliked the concept of putting my work experience public specifically _because_ I don't have any previous experience. It seems sort of childish for me to just list my school experience and have nothing else to show. That being said, I might try some of the flexbox formatting and put my skills in one column, with my school experience in two smaller asides. I wish I had something more solid to put here, but I guess this is all I've got.
