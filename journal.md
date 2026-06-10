@@ -38,3 +38,5 @@ The form took inspiration from the many forms we already did in class, but a lot
 ## Previous Work
 
 This page won't be as dense as the Projects page because I don't have much (if any) work experience to put on this page. I've always sort of disliked the concept of putting my work experience public specifically _because_ I don't have any previous experience. It seems sort of childish for me to just list my school experience and have nothing else to show. That being said, I might try some of the flexbox formatting and put my skills in one column, with my school experience in two smaller asides. I wish I had something more solid to put here, but I guess this is all I've got.
+
+## Touch ups

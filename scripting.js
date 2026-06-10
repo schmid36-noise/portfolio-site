@@ -8,10 +8,10 @@ const pages = [
   { text: "Contact Me", link: `${PREFIX}/contact.html` },
   { text: "Projects", link: `${PREFIX}/projects.html` },
   { text: "Work Experience", link: `${PREFIX}/work.html` },
-  { text: "API Testing", link: `${PREFIX}/api.html` },
 ];
 
 //  { text: "Home", link: "/portfolio-site/index.html" },
+//  { text: "API Testing", link: `${PREFIX}/api.html` },
 
 const createNavbar = function () {
   //code to append the header each time so no html space is copied
@@ -30,7 +30,7 @@ const createNavbar = function () {
 
   const logo = document.createElement("img");
   logo.src = `${PREFIX}/assets/winterfox.png`;
-  logo.alt = "logo of the Winter Fox Summoner skin from Realm of the Mad God";
+  logo.alt = "logo of A player skin from Realm of the Mad God";
   logo.width = "64";
   logo.height = "64";
 
@@ -54,9 +54,11 @@ const createNavbar = function () {
 };
 
 const createFooter = function (element) {
+  element.setAttribute("class", "mt-auto main-footer");
+  element.setAttribute("id", "footer");
   element.textContent = "We're all a work in progress";
 
-  return footer;
+  return element;
 };
 
 //append the header on load
@@ -69,3 +71,26 @@ mainHeader.append(createdNavbar);
 //append the footer on load
 const main = document.querySelector(".main-footer");
 const createdFooter = createFooter(main);
+
+funValue = 0;
+const randValue = function () {
+  return "#" + Math.floor(Math.random() * 16777215).toString(16);
+};
+
+const funThing = async function () {
+  if (funValue < 21) {
+    funValue++;
+  } else {
+    document.getElementById("footer").style.backgroundColor = randValue();
+  }
+
+  if (funValue == 10) {
+    main.textContent = "We're all a work in progress, but all we need";
+  } else if (funValue == 20) {
+    main.textContent =
+      "We're all a work in progress, but all we need is a nudge in the right direction";
+    funValue = 21;
+  }
+};
+
+const fun = main.addEventListener("click", funThing);
