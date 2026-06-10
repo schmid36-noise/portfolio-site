@@ -73,6 +73,7 @@ const main = document.querySelector(".main-footer");
 const createdFooter = createFooter(main);
 
 funValue = 0;
+// https://stackoverflow.com/questions/29356866/change-color-of-the-text-on-click-to-random-color-button
 const randValue = function () {
   return "#" + Math.floor(Math.random() * 16777215).toString(16);
 };

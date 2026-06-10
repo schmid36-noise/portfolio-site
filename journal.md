@@ -4,6 +4,9 @@ This document will cover my process of building the website over the days I was 
 
 I wanted to touch on specific features first, then start through all the individual pages until I made something I was proud of.
 
+Site - https://schmid36-noise.github.io/portfolio-site/
+Presentation - https://www.youtube.com/watch?v=WPaWFfczhsU
+
 ## Initial Commit
 
 Not much needs to be said about this point in the project.
@@ -15,7 +18,7 @@ The first thing I wanted out of the way first is the navbar. Since this was a ha
 
 ## Index/Landing page
 
-I had an idea what I wanted the landing page to look like, and thankfully there was a Bootstrap example for me to work off of. I wanted to initially have a transparent background image to work with, but I figured I should just start small and use a flat color. Eventually I might revisit it after I've finished all of the other pages, but it's currently in a pretty standard state. I don't think there needs to be much else on the landing page since I want the rest of the content to be on their own individual pages. I also went and redid a bit of the navbar to make it more visually distinct and add a bit of personal flair. The icon used is a character skin from one of the games that I enjoy, Realm of the Mad God.
+I had an idea what I wanted the landing page to look like, and thankfully there was a Bootstrap example for me to work off of. The Cover template was a perfect fit (https://getbootstrap.com/docs/5.3/examples/cover/). I wanted to initially have a transparent background image to work with (inspired from here https://mdbootstrap.com/freebies/image-full-cover/), but I figured I should just start small and use a flat color. Eventually I might revisit it after I've finished all of the other pages, but it's currently in a pretty standard state. I don't think there needs to be much else on the landing page since I want the rest of the content to be on their own individual pages. I also went and redid a bit of the navbar to make it more visually distinct and add a bit of personal flair. The icon used is a character skin from one of the games that I enjoy, Realm of the Mad God.
 
 ## Stretching concerns
 
@@ -23,7 +26,7 @@ While I was working on the landing page I remembered that I might need to adjust
 
 ## About Me page
 
-This one took a while because I was helping my roommate move out, but I also really like how this page turned out. Once again, I had a vision for what the page would be like and Bootstrap had a template that I could take inspiration from. The carousel page had sections with images and text on opposite sides of the main content page, and other sections I could take inspiration from later for other sections. All of what I wrote on this page are my honest thoughts and although I didn't really put an emphasis on professional work, I'll still put my work on the corresponding page. Speaking of which...
+This one took a while because I was helping my roommate move out, but I also really like how this page turned out. Once again, I had a vision for what the page would be like and Bootstrap had a template that I could take inspiration from. The carousel page (https://getbootstrap.com/docs/5.3/examples/carousel/)had sections with images and text on opposite sides of the main content page, and even though I didn't use the carousel itself the page did provide the inspiration I needed. All of what I wrote on this page are my honest thoughts and although I didn't really put an emphasis on professional work, I'll still put my work on the corresponding page. Speaking of which...
 
 ## Projects
 
@@ -37,7 +40,7 @@ The form took inspiration from the many forms we already did in class, but a lot
 
 ## Previous Work
 
-This page won't be as dense as the Projects page because I don't have much (if any) work experience to put on this page. I've always sort of disliked the concept of putting my work experience public specifically _because_ I don't have any previous experience. It seems sort of childish for me to just list my school experience and have nothing else to show. That being said, I might try some of the flexbox formatting and put my skills in one column, with my school experience in two smaller asides. I wish I had something more solid to put here, but I guess this is all I've got.
+This page won't be as dense as the Projects page because I don't have much (if any) work experience to put on this page. I've always sort of disliked the concept of putting my work experience public specifically _because_ I don't have any previous experience. It seems sort of childish for me to just list my school experience and have nothing else to show. That being said, I might try some of the flexbox formatting and put my skills in one column, with my school experience in two smaller asides. I wish I had something more solid to put here, but I guess this is all I've got. I used a very light version of the flexbox assignment to order the three boxes, and used some styling to make them look a bit fancy.
 
 ## Touch ups
 
